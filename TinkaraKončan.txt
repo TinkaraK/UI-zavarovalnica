@@ -1,0 +1,25 @@
+ime: Tinkara
+moc: 147
+datumRojstva: 2000-01-19
+krajRegistracije: Ljubljana
+priimek: Končan
+gorivo: električni
+zavToca: true
+zavPotnik: true
+prostornina: 1.9
+vrstaVozila: osebni avto
+zavSteklo: true
+registrska: KK JE TIH
+znamka: Hyundai
+hisnaStevilka: 33
+postnaStevilka: 1354
+zavKraja: true
+oznaka: ne-vem
+kraj: Horjul
+stSedezev: 6
+brez: true
+barva: bela
+datumRegistracije: 2018-08-08
+ulica: Ljubgojna
+AO+: true
+voznik: izkusen

@@ -1,0 +1,167 @@
+* {
+    -fx-text-fill: #b1beff;
+
+}
+
+.button {
+    -fx-background-color: #d6e1ff;
+    -fx-border-color:#687bbe;
+    -fx-background-radius: 30;
+    -fx-border-radius: 10px;
+    -fx-text-fill: #687bbe;
+    -fx-margin-right: 10px;
+    /*-fx-box-shadow: 1px 2px 3px rgba(0,0,0,0.6);*/
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+    -fx-background-color: #bcc5f6;
+    -fx-border-color:#687bbe;
+    -fx-text-fill: white;
+}
+
+.border-pane {
+    -fx-background-color: pink;
+}
+
+.grid-pane {
+    -fx-background-color: orange;
+}
+
+.label {
+    -fx-text-fill: #7b85b2;
+}
+
+
+.anchor-pane {
+    -fx-background-color: #f0f6ff;
+    -fx-border-insets: 5 10 10 10;
+    -fx-border-color: #d0d8ff;
+    -fx-border-radius: 10;
+}
+.menu-bar {
+    -fx-background-color: #c9d7ff;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+}
+
+.titles {
+    -fx-text-fill:#6a7299;
+    -fx-font-weight: bold;
+    -fx-background-color: inherit;
+}
+
+.text-field {
+    -fx-background-color: #f6f9ff;
+    -fx-border-color:#c9d7ff;
+    -fx-prompt-text-fill: #bcc5f6;
+    -fx-text-fill: #6a7299;
+}
+
+.text-field.error , .spinner.error, .combo-box.error, .date-picker.error{
+    -fx-border-color: red;
+}
+.text-field.test {
+    -fx-border-color: blue;
+}
+
+
+.combo-box {
+    -fx-background-color: #f6f9ff;
+    -fx-border-color:#c9d7ff;
+    -fx-text-fill: #6a7299;
+}
+
+.combo-box .arrow-button{
+    -fx-body-color: #d6e1ff;
+    -fx-border-color: #c9d7ff;
+    -fx-border-style: none;
+}
+
+.combo-box .text {
+    -fx-prompt-text-fill: #b1beff;
+    -fx-body-color: #d6e1ff;
+    -fx-border-color: #c9d7ff;
+}
+
+.combo-box .list-cell:hover{
+    -fx-background-color:#d6e1ff;
+}
+
+
+.combo-box .cell:selected {
+
+}
+
+.choice-box {
+    -fx-background-color: #f6f9ff;
+    -fx-border-color:#c9d7ff;
+    -fx-text-fill: #6a7299;
+}
+.choice-box:hover {
+    -fx-underline: true;
+}
+.check-box .box {
+    -fx-background-color: #f6f9ff;
+    -fx-border-color:#c9d7ff;
+}
+
+.check-box:hover {
+    -fx-underline: true;
+}
+
+.check-box {
+    -fx-text-fill: #687bbe;
+}
+
+.check-box:selected > .box > .mark {
+    -fx-background-color: #687bbe;
+    -fx-background-insets: 0;
+}
+
+.radio-button:hover {
+    -fx-underline: true;
+}
+
+.radio-button {
+    -fx-text-fill: #687bbe;
+}
+.radio-button .radio {
+    -fx-background-color: #f6f9ff;
+    -fx-border-color:#c9d7ff;
+    -fx-border-radius: 10px;
+    -fx-text-fill: #687bbe;
+}
+
+.radio-button:selected .dot {
+    -fx-background-color: #687bbe;
+    -fx-background-insets: 0;
+}
+
+.spinner .increment-arrow-button, .spinner .decrement-arrow-button {
+    -fx-body-color: #d6e1ff;
+    -fx-border-color: #c9d7ff;
+        -fx-border-color: #c9d7ff;
+
+}
+
+.increment-arrow, .decrement-arrow {
+    -fx-background-color: #687bbe;
+}
+
+.arrow-button .arrow {
+    -fx-background-color: #687bbe;
+}
+.choice-box .arrow {
+    -fx-background-color: #687bbe;
+}
+.date-picker {
+    -fx-body-color: #d6e1ff;
+    -fx-border-color: #c9d7ff;
+    -fx-text-fill: #687bbe;
+}
+
+.date-picker-popup >* > .day-cell:hover{
+    -fx-background-color:#d6e1ff;
+
+}
